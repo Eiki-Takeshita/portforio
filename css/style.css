@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 header {
-    background: #333;
+    background: linear-gradient(45deg, #6D5ACF 0%, #B967E1 100%);
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -16,16 +16,27 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2.5rem;
 }
 
 section {
     padding: 1rem 20px;
+    max-width: 800px;
+    margin: auto;
 }
 
 a {
-    color: #333;
+    color: #6D5ACF;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #007bff;
+    color: #B967E1;
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
 }
