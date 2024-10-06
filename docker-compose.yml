@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  react:
+    build:
+      args:
+        - NODE_VER=lts
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 5173:5173
+    tty: true
+    volumes:
+      - .:/home/node/app
