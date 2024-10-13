@@ -3,6 +3,7 @@ import Header from './components/Header'
 import SkillsSection from './components/SkillsSection'
 import ProjectSection from './components/ProjectSection'
 import CareerSection from './components/CareerSection'
+import IntroductionSection from './components/IntroductionSection'
 
 function App() {
   // 連絡先ポップアップの表示状態を管理
@@ -23,6 +24,9 @@ function App() {
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">Factory Automation Engineer</h2>
             <p className="text-lg sm:text-xl text-gray-400">PLCと最新のソフトウェアソリューションを橋渡しするエンジニア</p>
           </section>
+
+          {/* 自己紹介セクション */}
+          <IntroductionSection />
           
           {/* スキルセクション */}
           <SkillsSection />
