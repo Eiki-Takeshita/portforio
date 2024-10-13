@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Header from './components/Header'
 import SkillsSection from './components/SkillsSection'
 import ProjectSection from './components/ProjectSection'
-import CareerSection from './components/CareerSection'
 import IntroductionSection from './components/IntroductionSection'
 
 function App() {
