@@ -38,7 +38,7 @@ function App() {
         </main>
         {/* フッター */}
         <footer className="text-center py-8 border-t border-gray-800">
-          <p className="text-sm text-gray-400">&copy; 2024 Eiki Takeshita. All rights reserved.</p>
+          <p className="text-sm text-gray-400">&copy; 2024 eternal-TAKENOKO. All rights reserved.</p>
         </footer>
       </div>
 

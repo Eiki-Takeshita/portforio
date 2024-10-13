@@ -5,15 +5,17 @@ const IntroductionSection = () => {
         <section className="mb-16">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <div className="bg-gray-800 p-6 rounded-lg">
-            <p className="text-lg mb-4">
-            私は工場自動化の分野で5年以上の経験を持つFAエンジニアです。PLCプログラミングとソフトウェア開発の両方のスキルを活かし、効率的で革新的な自動化ソリューションの設計と実装に取り組んでいます。
-            </p>
-            <p className="text-lg mb-4">
-            私の目標は、最新のテクノロジーを活用して、製造プロセスを最適化し、生産性を向上させることです。常に新しい技術とベストプラクティスを学び、クライアントのニーズに最適なソリューションを提供することに情熱を注いでいます。
-            </p>
-            <p className="text-lg">
-            チームワークとコミュニケーションを重視し、複雑なプロジェクトを成功に導くために、さまざまな専門家と協力して働くことを楽しんでいます。
-            </p>
+            <div classname="max-w-3xl ma-auto space-y-4 sm:space-y-6">
+                <p className="text-base sm:text-lg">
+                はじめまして、永遠にタケノコです。FAエンジニアとして工場の自動化に携わっています。
+                </p>
+                <p className="text-base sm:text-lg">
+                PLCプログラミングとソフトウェア開発の両方のスキルを活かし、既存の設備を最新の技術でアップデートすることを目指しています。
+                </p>
+                <p className="text-base sm:text-lg">
+                ラズパイやレンタルサーバーでアプリ開発やWebサイト制作をすることが趣味で、このポートフォリオもフロントエンドの勉強のために作成しました。
+                </p>
+            </div>
         </div>
         </section>
     );

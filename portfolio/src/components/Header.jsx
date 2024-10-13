@@ -21,7 +21,7 @@ const Header = ({ onContactClick }) => {
     return (
         <header className="py-6">
         <div className="flex justify-between items-center">
-            <h1 className="text-2xl sm:text-3xl font-bold">Eiki Takeshita<span className="text-blue-400">.engineer</span></h1>
+            <h1 className="text-2xl sm:text-3xl font-bold">eternal-TAKENOKO<span className="text-blue-400">.engineer</span></h1>
             
             <nav className="hidden md:block">
             <ul className="flex space-x-6">
