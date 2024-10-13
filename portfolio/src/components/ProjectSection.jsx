@@ -41,7 +41,7 @@ const ProjectCard = ({ title, description, technologies, outcomes }) => (
     ];
 
     return (
-        <section className="mb-16">
+        <section id="projects" className="mb-16">
         <h2 className="text-3xl font-bold mb-8">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {projects.map((project, index) => (
