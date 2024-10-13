@@ -8,9 +8,7 @@ function App() {
   // 連絡先ポップアップの表示状態を管理
   const [isContactPopupOpen, setIsContactPopupOpen] = useState(false);
 
-  // 連絡先ポップアップを開く関数
   const openContactPopup = () => setIsContactPopupOpen(true);
-  // 連絡先ポップアップを閉じる関数
   const closeContactPopup = () => setIsContactPopupOpen(false);
 
   return (
