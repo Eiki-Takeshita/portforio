@@ -5,7 +5,7 @@ const IntroductionSection = () => {
         <section id="about" className="mb-16">
         <h2 className="text-2xl font-bold mb-4">About Me</h2>
         <div className="bg-gray-800 p-6 rounded-lg">
-            <div classname="max-w-3xl ma-auto space-y-4 sm:space-y-6">
+            <div className="max-w-3xl mx-auto space-y-4 sm:space-y-6">
                 <p className="text-base sm:text-lg">
                 はじめまして、永遠にタケノコです。FAエンジニアとして工場の自動化に携わっています。
                 </p>
